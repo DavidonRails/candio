@@ -1,0 +1,365 @@
+/*
+.candio-top-bar {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.candio-top-bar .navbar-logo {
+    margin-left: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+#top-main-menu .nav-item {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+#top-main-menu .nav-item.active {
+    font-size: 18px;
+}
+
+#top-main-menu .nav-item.active * {
+    color: #f18024;
+}
+
+#mobile-popup-menu {
+    margin-top: 59px;
+}
+*/
+
+.sidebar .demo-menu {
+    position: fixed;
+    right: 0;
+    border: 1px solid;
+    height: 300px;
+    overflow: scroll;
+    background-color: ghostwhite;
+}
+
+.jack {
+    position: fixed;
+    top: 100px;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+}
+
+
+/*** Login View ****/
+
+.loginView .btn_link {
+    padding: 4px 10px;
+    background: orangered;
+    color: white;
+}
+
+
+/*** Welcome View ****/
+
+.welcomeView {
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.color-strong {
+    color: black;
+    font-weight: bold;
+}
+
+.required:before {
+    content: " * ";
+    color: red;
+}
+
+.header-avatar {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 100% auto;
+    background-position: center;
+    float: right;
+}
+
+.relative_loading {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgba(241, 128, 36, 0.2);
+    border-radius: 50%;
+    border-top-color: #f18024;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+    /* left: 0; */
+    /* top: 0px; */
+    position: relative;
+    z-index: 1;
+}
+
+.welcomeView .col_profile {
+    min-height: 800px;
+}
+
+.welcomeView .col_advertise {
+    /* background-color: #dfdfdf; */
+}
+
+.welcomeView .side_logo {
+    width: 200px;
+    height: 200px;
+    background: url(/assets/img/undraw_wallet_aym5.svg) no-repeat;
+    background-position: center center;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.welcomeView .avatar_preview {
+    width: 200px;
+    height: 200px;
+}
+
+.welcomeView .resume_download {
+    width: 200px;
+    height: 200px;
+}
+
+.welcomeView .resume_download a {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+}
+
+
+/*** Assessment List View ****/
+
+.assessment_logo {
+    width: 100px;
+    height: 100px;
+    background: url(/assets/img/undraw_certificate.svg) no-repeat;
+    background-position: center center;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+.assessmentView .lock {
+    color: rgb(165, 168, 170);
+    font-size: 18px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: 600;
+}
+
+.assessmentView .card-desc {
+    height: 100px;
+    overflow-y: hidden;
+}
+
+
+/*** Challenge View ****/
+
+.challengeView .challenge_card {
+    min-height: 450px;
+}
+
+.challengeView .timer {
+    top: -70px;
+}
+
+
+/*** Profile Feature ****/
+
+.port_img {
+    height: 150px;
+}
+
+.port_del {
+    position: absolute;
+    top: 20px;
+    margin-right: 20px;
+}
+
+.port_del a i {
+    font-size: 1.5em;
+    color: white;
+    margin-left: 150px;
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+/*** Job List View ****/
+
+.jobListView {
+    .pro-card {
+        .pro-dorpdown {
+            .dropdown-header {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                font-size: 12px;
+                text-align: center;
+            }
+            .glyph-icon {
+                font-size: 16px;
+                line-height: 34px;
+                color: #88929e;
+            }
+        }
+        .pro-title {
+            font-size: 1.3em;
+        }
+        .pro-subTitle {
+            color: #88929e;
+            margin-top: 3px;
+        }
+        .pro-status {
+            color: #88929e;
+            font-size: 1.3em;
+        }
+        .pro-stage-btn {
+            color: #636d77;
+            display: block;
+            font-weight: 600;
+            text-align: center;
+            cursor: pointer;
+        }
+        .pro-stage-btn:hover {
+            background-color: whitesmoke;
+        }
+    }
+    .pro-tooltip {
+        color: #88929e;
+        span {
+            color: #fd0;
+        }
+    }
+}
+
+
+/*** Job Detail View ****/
+
+.jobDetailView {
+    padding-top: 130px;
+    .jobHeader {
+        position: fixed;
+        top: 100px;
+        right: 0px;
+        left: 120px;
+        background-color: #F8F8F8;
+        z-index: 999;
+        .job-dropdown-menu {
+            .dropdown-header {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+        .job-stage-btn {
+            color: #636d77;
+            width: 100%;
+            padding: 10px;
+            border: 0;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: left;
+            background-color: #f1f1f1;
+            .job-title {
+                color: #333e49;
+                font-weight: bold;
+            }
+        }
+        .job-stage-btn:active {
+            background-color: #e1e1e1;
+            cursor: pointer;
+        }
+        .job-stage-btn.deactive {
+            background-color: whitesmoke;
+            cursor: no-drop;
+        }
+    }
+    .jobBody {
+        .job-card {
+            .card-header {
+                background-color: #f9f9f9;
+            }
+            .card-body {
+                padding: 0px;
+            }
+        }
+    }
+}
+
+
+/*** Job Candidates View ****/
+
+.jobCandidateView {
+    padding-top: 130px;
+    .header {
+        position: fixed;
+        top: 100px;
+        right: 0px;
+        left: 120px;
+        background-color: #F8F8F8;
+        z-index: 999;
+    }
+}
+
+// Pad Size
+.main-hidden {
+    .jobDetailView {
+        padding-top: 150px;
+        .jobHeader {
+            top: 100px;
+            right: 0px;
+            left: 0px;
+            width: 100%;
+            .btnCreateJob {
+                height: 30px;
+                line-height: 12px;
+            }
+            .job-title-desc {
+                display: none;
+            }
+        }
+    }
+    .jobCandidateView {
+        padding-top: 150px;
+        .header {
+            top: 100px;
+            right: 0px;
+            left: 0px;
+            width: 100%;
+        }
+    }
+}
+
+// Phone size
+.menu-mobile {
+    .jobDetailView {
+        padding-top: 200px;
+        .jobHeader {
+            left: 0;
+            top: 70px;
+        }
+    }
+    .jobCandidateView {
+        padding-top: 200px;
+        .header {
+            left: 0;
+            top: 70px;
+        }
+    }
+}

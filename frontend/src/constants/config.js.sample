@@ -1,0 +1,68 @@
+export const backendApi = 'https://api.candio.dev/api'
+
+// common settting
+
+export const defaultMenuType = 'menu-default' // 'menu-default', 'menu-sub-hidden', 'menu-hidden';
+export const defaultStartPath = '/app/dashboards/default'
+export const searchPath = '/app/pages/miscellaneous/search'
+export const buyUrl = 'https://1.envato.market/nEyZa'
+
+export const subHiddenBreakpoint = 1440
+export const menuHiddenBreakpoint = 768
+
+export const defaultLocale = 'en'
+export const defaultDirection = 'ltr'
+export const localeOptions = [
+  { id: 'en', name: 'English LTR', direction: 'ltr' },
+  { id: 'es', name: 'Español', direction: 'ltr' },
+  { id: 'enrtl', name: 'English RTL', direction: 'rtl' }
+]
+
+export const firebaseConfig = {
+    apiKey: "AIzaSyC9gq9zGWu4NkRgLwYh7QKe9DmI2stBIAU",
+    authDomain: "candio-24fb6.firebaseapp.com",
+    databaseURL: "https://candio-24fb6.firebaseio.com",
+    projectId: "candio-24fb6",
+    storageBucket: "candio-24fb6.appspot.com",
+    messagingSenderId: "348233039281",
+    appId: "1:348233039281:web:03324fcf8c08df24851190",
+    measurementId: "G-W5TQ1K9C9P"
+};
+
+
+
+export const apiUrl = 'https://api.coloredstrategies.com';
+
+export const roles = {
+  SUPER_ADMIN : 1,
+  ADMIN : 2,
+  CANDIDATE : 3,
+  ORG_ADMIN : 4,
+  ORG_MANAGER : 5,
+  ORG_USER : 6,
+
+  DEMO : 100
+}
+
+export const isDemo = false;
+export const themeRadiusStorageKey = 'theme_radius'
+export const defaultColor = 'light.orange'
+export const colors = [
+  'light.purple',
+  'dark.purple',
+  'light.blue',
+  'dark.blue',
+  'light.green',
+  'dark.green',
+  'light.orange',
+  'dark.orange',
+  'light.red',
+  'dark.red'
+]
+
+export const avatarURLs = [
+  'https://www.gravatar.com/avatar/23423535?f=y&d=robohash',
+  'https://www.gravatar.com/avatar/2315235?f=y&d=robohash',
+  'https://www.gravatar.com/avatar/gasdg325235?f=y&d=monsterid',
+  'https://www.gravatar.com/avatar/31463146416146?f=y&d=monsterid'
+]
